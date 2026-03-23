@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tyle — Put Your Phone Down</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #0a0a0a;
+      color: #f0f0f0;
+      line-height: 1.6;
+    }
+
+    /* Hero */
+    .hero {
+      min-height: 100svh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 48px 24px;
+    }
+
+    .logo {
+      font-size: 48px;
+      font-weight: 800;
+      letter-spacing: -2px;
+      color: #ffffff;
+      margin-bottom: 16px;
+    }
+
+    .tagline {
+      font-size: 20px;
+      color: #888;
+      margin-bottom: 40px;
+      max-width: 280px;
+    }
+
+    .cta-button {
+      display: inline-block;
+      background: #ffffff;
+      color: #0a0a0a;
+      font-size: 16px;
+      font-weight: 700;
+      padding: 16px 36px;
+      border-radius: 100px;
+      text-decoration: none;
+      letter-spacing: -0.3px;
+    }
+
+    .sub-cta {
+      margin-top: 14px;
+      font-size: 13px;
+      color: #555;
+    }
+
+    /* How it works */
+    .section {
+      padding: 72px 24px;
+      max-width: 480px;
+      margin: 0 auto;
+    }
+
+    .section-label {
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #555;
+      margin-bottom: 12px;
+    }
+
+    .section-title {
+      font-size: 28px;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+      margin-bottom: 40px;
+      color: #fff;
+    }
+
+    .steps {
+      display: flex;
+      flex-direction: column;
+      gap: 32px;
+    }
+
+    .step {
+      display: flex;
+      gap: 20px;
+      align-items: flex-start;
+    }
+
+    .step-number {
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      background: #1c1c1c;
+      border: 1px solid #2e2e2e;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 14px;
+      font-weight: 700;
+      color: #fff;
+      flex-shrink: 0;
+    }
+
+    .step-text h3 {
+      font-size: 17px;
+      font-weight: 600;
+      margin-bottom: 4px;
+      color: #fff;
+    }
+
+    .step-text p {
+      font-size: 15px;
+      color: #666;
+    }
+
+    /* Features */
+    .features {
+      padding: 72px 24px;
+      max-width: 480px;
+      margin: 0 auto;
+    }
+
+    .feature-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+    }
+
+    .feature-card {
+      background: #111;
+      border: 1px solid #1e1e1e;
+      border-radius: 16px;
+      padding: 20px;
+    }
+
+    .feature-icon {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    .feature-card h3 {
+      font-size: 15px;
+      font-weight: 600;
+      margin-bottom: 4px;
+      color: #fff;
+    }
+
+    .feature-card p {
+      font-size: 13px;
+      color: #555;
+    }
+
+    /* Footer CTA */
+    .footer-cta {
+      padding: 72px 24px 96px;
+      text-align: center;
+      max-width: 480px;
+      margin: 0 auto;
+    }
+
+    .footer-cta h2 {
+      font-size: 28px;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+      margin-bottom: 24px;
+      color: #fff;
+    }
+
+    .footer-note {
+      margin-top: 48px;
+      font-size: 13px;
+      color: #333;
+    }
+
+    /* Divider */
+    .divider {
+      height: 1px;
+      background: #1a1a1a;
+      max-width: 480px;
+      margin: 0 auto;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="logo">Tyle</div>
+    <p class="tagline">Your physical world controls your digital one.</p>
+    <a href="#" class="cta-button">Get Early Access</a>
+    <p class="sub-cta">Coming soon to iOS</p>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- How it works -->
+  <section class="section">
+    <p class="section-label">How it works</p>
+    <h2 class="section-title">Three steps to real focus.</h2>
+    <div class="steps">
+      <div class="step">
+        <div class="step-number">1</div>
+        <div class="step-text">
+          <h3>Pick your Tyle</h3>
+          <p>Choose any physical object — your wallet, a book, keys — as your Tyle.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-number">2</div>
+        <div class="step-text">
+          <h3>Set your limits</h3>
+          <p>Choose which apps get locked when your Tyle is active.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-number">3</div>
+        <div class="step-text">
+          <h3>Scan to toggle</h3>
+          <p>Scan your Tyle with the camera to lock or unlock your apps — no password needed.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- Features -->
+  <section class="features">
+    <p class="section-label">Features</p>
+    <h2 class="section-title">Built for intention.</h2>
+    <div class="feature-grid">
+      <div class="feature-card">
+        <div class="feature-icon">📵</div>
+        <h3>App Blocking</h3>
+        <p>Lock any app when your Tyle is active.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">📷</div>
+        <h3>Object Scanning</h3>
+        <p>Your camera reads your Tyle in seconds.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🔁</div>
+        <h3>Instant Toggle</h3>
+        <p>One scan to lock. One scan to unlock.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🎯</div>
+        <h3>Your Object</h3>
+        <p>Any item you already own can be your Tyle.</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- Footer CTA -->
+  <section class="footer-cta">
+    <h2>Ready to take back your attention?</h2>
+    <a href="#" class="cta-button">Get Early Access</a>
+    <p class="footer-note">© 2026 Tyle. All rights reserved.</p>
+  </section>
+
+</body>
+</html>
